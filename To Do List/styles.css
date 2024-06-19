@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(background.jpg) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background : url(container_background.jpg)no-repeat center center fixed; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group input,
+.input-group select,
+.input-group button {
+    padding: 10px;
+    border: 1px solid #8adaf5;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#add-task-button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-task-button:hover {
+    background-color: #218838;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.task-item .task-details {
+    flex-grow: 1;
+}
+
+.task-item .task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-item .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.task-item .complete-button {
+    background-color: #007bff;
+    color: #fff;
+}
