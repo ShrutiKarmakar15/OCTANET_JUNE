@@ -3,39 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website Landing Page Design</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Greenify - Sustainable Living</title>
+   
 </head>
 <body>
-    <section>
-        <input type="checkbox" id="check">
-        <header>
-            <h2> <a href="https://unsplash.com/photos/light-bulb-centered-on-dark-green-background-recycle-icon-reducing-energy-for-the-environment-3d-render-illustration-KLrKKIR0KQk" class="logo">Logo</a></h2>
-            <div class="navigation">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Info</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-            </div>
-            <label for="check">
-                <i class="fas fa-bars menu-btn"></i>
-                <i class="fas fa-times close-btn"></i>
-            </label>
-        </header>
-        <div class="content">
-            <div class="info">
-                <h2>Like Nature <br><span>Be Creative !</span></h2>
-                <p>Nature, in all its splendor, is a symphony of life that nurtures and sustains us. From the towering mountains to the whispering forests, every element is a testament to the intricate balance of ecosystems. Mother Earth, our shared home, provides us with the air we breathe, the water we drink, and the food we eat. Her beauty is boundless, her generosity immense, and her resilience remarkable. It is our duty to cherish and protect her, ensuring that her wonders endure for generations to come.</p>
-                <a href="https://www.discovery.com/nature/all-nature-articles" class="Info-btn">More Info</a>
-            </div>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">🌱 Greenify</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#resources">Resources</a>
+                <a href="#join">Join the Movement</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+            <a href="#join" class="cta-btn">Take Action</a>
         </div>
-        <di class="media-icons">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i> </a>
-        <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Together for a Greener Tomorrow</h1>
+        <p>Discover simple, impactful ways to reduce your carbon footprint and contribute to a healthier planet.</p>
+        <a href="#join" class="hero-btn">Join the Greenify Movement</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" style="background-image:url('luke-miller-bWcYK_Q-_sY-unsplash.jpg') ;">
+        <h2>Why Greenify?</h2>
+        <p>Greenify is a community-driven initiative dedicated to promoting eco-friendly habits and sustainable lifestyles. We believe in empowering individuals to make small changes that create a big impact. From energy-saving tips to waste reduction guides, we’re here to support your journey towards a greener future.</p>
+        <div class="about-images">
+            <img src="Screenshot 2024-11-08 002040.png" alt="Nature">
+            <img src="Screenshot 2024-11-08 002852.png" alt="Recycling">
         </div>
     </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" style="background-image: url('luke-miller-bWcYK_Q-_sY-unsplash.jpg') ;">
+        <h2>How You Can Help</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>Learn</h3>
+                <p>Access resources on sustainable practices for all aspects of daily life.</p>
+            </div>
+            <div class="step">
+                <h3>Implement</h3>
+                <p>Start small by making eco-friendly choices, like reducing plastic use or conserving water.</p>
+            </div>
+            <div class="step">
+                <h3>Spread the Word</h3>
+                <p>Join our community to share ideas and inspire others.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources" style="background-image: url('luke-miller-bWcYK_Q-_sY-unsplash.jpg') ;">
+        <h2>Sustainable Living Resources</h2>
+        <div class="resource-cards">
+            <div class="resource-card">
+                <h3>Top 10 Tips for Reducing Household Waste</h3>
+                <a href="#" class="resource-btn">Read More</a>
+            </div>
+            <div class="resource-card">
+                <h3>How to Start Composting at Home</h3>
+                <a href="#" class="resource-btn">Read More</a>
+            </div>
+            <div class="resource-card">
+                <h3>Sustainable Shopping Checklist</h3>
+                <a href="#" class="resource-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join the Movement Section -->
+    <section id="join" class="join" style="background-image: url('luke-miller-bWcYK_Q-_sY-unsplash.jpg') ;">
+        <h2>Be Part of the Change</h2>
+        <p>Every action counts. Join thousands of like-minded individuals in making a difference.</p>
+        <div class="join-options">
+            <button>Volunteer Opportunities</button>
+            <button>Take the Green Pledge</button>
+            <button>Sign Up for Our Newsletter</button>
+        </div>
+    </section>
+
+    <!-- Impact Stories Section -->
+    <section class="impact-stories" style="background-image: url('luke-miller-bWcYK_Q-_sY-unsplash.jpg') ;">
+        <h2>Our Community in Action</h2>
+        <div class="story-cards">
+            <div class="story-card">
+                <p>"Switching to reusable bags has been a game-changer! Small steps can make a huge difference."</p>
+                <cite>- Alex M.</cite>
+            </div>
+            <div class="story-card">
+                <p>"Composting has reduced my household waste by half. I feel more connected to nature."</p>
+                <cite>- Priya S.</cite>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <p>Email: myFirstStep@greenify.org</p>
+                <p>Follow Us:</p>
+                <p>Twitter | Facebook | Instagram</p>
+            </div>
+            <p>&copy; 2024 Greenify. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- CSS Styling -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #1f6622;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav a, .cta-btn {
+            color: #fff;
+            margin-right: 1rem;
+            text-decoration: none;
+        }
+        .cta-btn {
+            background: #22bf2a;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        .hero {
+            background: url('elijah-pilchard-GjSBYUPy7EU-unsplash.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .about, .how-it-works, .resources, .join, .impact-stories, footer {
+            padding: 2rem;
+            text-align: center;
+        }
+        .about-images img {
+            width: 45%;
+            margin: 0.5rem;
+            border-radius: 8px;
+        }
+        .how-it-works .steps {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .step {
+            max-width: 200px;
+        }
+        .resources .resource-cards, .impact-stories .story-cards {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .join-options button {
+            margin: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: #266228;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background: #2E7D32;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
 </body>
 </html>
+
